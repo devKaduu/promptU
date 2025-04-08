@@ -163,7 +163,7 @@ export function PromptOptimizer() {
                         </Button>
                       </TooltipTrigger>
                       <TooltipContent className="max-w-sm">
-                        <p>Clique na guia &quot;Improvements&quot; para ver quais alterações foram feitas e por que elas melhoram seu prompt.</p>
+                        <p>Clique na guia &quot;Melhorias&quot; para ver quais alterações foram feitas e por que elas melhoram seu prompt.</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>

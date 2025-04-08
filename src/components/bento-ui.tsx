@@ -19,14 +19,12 @@ export function PrincipaisRecursos() {
                 <Zap className="w-6 h-6" />
               </div>
               <h3 className="text-2xl font-bold group-hover:text-blue-700">Desempenho Otimizado</h3>
-              <p className="text-gray-500 group-hover:text-blue-600">
+              <p className="text-gray-500 group-hover:text-blue-600 text-md">
                 Nossa plataforma foi projetada para oferecer velocidade excepcional e eficiência em todas as operações. Utilizamos tecnologias de ponta para
                 garantir que seus processos sejam executados com o máximo de desempenho, mesmo com grandes volumes de dados.
               </p>
 
-              <p className="text-white text-[11rem] text-right absolute left-10 bottom-0 font-light opacity-20 blur-md pointer-events-none whitespace-nowrap">
-                IA promptU
-              </p>
+              <p className="text-white text-[11rem] text-right absolute left-10 bottom-0 font-light pointer-events-none whitespace-nowrap">IA promptU</p>
             </div>
           </div>
 
@@ -37,7 +35,7 @@ export function PrincipaisRecursos() {
                 <BadgeDollarSign className="w-5 h-5" />
               </div>
               <h3 className="text-xl font-bold group-hover:text-green-700">Totalmente Gratuito</h3>
-              <p className="text-gray-500 group-hover:text-green-600">
+              <p className="text-gray-500 group-hover:text-green-600 text-md">
                 Aproveite todos os recursos sem pagar nada. Sem taxas escondidas, sem pegadinhas — é realmente grátis.
               </p>
             </div>
@@ -50,7 +48,7 @@ export function PrincipaisRecursos() {
                 <BarChart3 className="w-5 h-5" />
               </div>
               <h3 className="text-xl font-bold group-hover:text-purple-700">Análises Detalhadas</h3>
-              <p className="text-gray-500 group-hover:text-purple-600">
+              <p className="text-gray-500 group-hover:text-purple-600 text-md">
                 Explore diferentes estilos de geração: criativo, preciso, técnico ou aleatório — adaptados ao seu objetivo. E isso é só o começo: novas opções
                 estão chegando para turbinar ainda mais suas análises.
               </p>
@@ -64,7 +62,7 @@ export function PrincipaisRecursos() {
                 <Smartphone className="w-5 h-5" />
               </div>
               <h3 className="text-xl font-bold group-hover:text-orange-700">Totalmente Responsivo</h3>
-              <p className="text-gray-500 group-hover:text-orange-600">
+              <p className="text-gray-500 group-hover:text-orange-600 text-md">
                 Acesse de qualquer dispositivo com uma experiência otimizada para desktop, tablet e smartphones.
               </p>
             </div>
@@ -78,7 +76,7 @@ export function PrincipaisRecursos() {
               </div>
               <div>
                 <h3 className="text-xl font-bold group-hover:text-red-700 mb-2">Colaboração em Tempo Real</h3>
-                <p className="text-gray-500 group-hover:text-red-600">
+                <p className="text-gray-500 group-hover:text-red-600 text-md">
                   Receba feedback instantâneo sobre seus prompts em colaboração com sua equipe. Veja o que funcionou, onde errou e aprenda em tempo real para
                   criar instruções mais precisas nas próximas interações.
                 </p>

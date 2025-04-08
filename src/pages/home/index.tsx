@@ -17,9 +17,7 @@ export function HomeTemplate() {
           <div className="container max-w-5xl mx-auto">
             <div className="flex justify-center items-center flex-col text-center gap-2 mb-12">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Otimize seu prompt</h2>
-              <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed">
-                Melhore a clareza e a precisão dos seus comandos com sugestões inteligentes e ajustes automáticos.
-              </p>
+              <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed">Melhore a clareza e a precisão dos seus comandos com sugestões inteligentes.</p>
             </div>
 
             <PromptOptimizer />
