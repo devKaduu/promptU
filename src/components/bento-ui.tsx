@@ -1,6 +1,6 @@
 import { Zap, BarChart3, Smartphone, Users, BadgeDollarSign } from "lucide-react";
 
-export default function PrincipaisRecursos() {
+export function PrincipaisRecursos() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-black flex items-center justify-center">
       <div className="container px-4 md:px-6">
@@ -24,7 +24,9 @@ export default function PrincipaisRecursos() {
                 garantir que seus processos sejam executados com o máximo de desempenho, mesmo com grandes volumes de dados.
               </p>
 
-              <p className="text-white text-[10rem] text-right absolute right-0 bottom-0 font-light opacity-20 blur-md pointer-events-none">promptU</p>
+              <p className="text-white text-[11rem] text-right absolute left-10 bottom-0 font-light opacity-20 blur-md pointer-events-none whitespace-nowrap">
+                IA promptU
+              </p>
             </div>
           </div>
 

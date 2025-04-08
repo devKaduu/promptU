@@ -2,19 +2,18 @@
 
 import { useState } from "react";
 import { Sparkles, Copy, Check, Info } from "lucide-react";
+import { GenAi } from "@/service/api/gemini";
+import { Badge } from "@/components/ui/badge";
+import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Badge } from "@/components/ui/badge";
-import { Tooltip, TooltipProvider, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Label } from "@/components/ui/label";
-import { GenAi } from "@/service/api/gemini";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tooltip, TooltipProvider, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
+import { OptimizationStyle } from "@/types/optimization-types";
 
-export type OptimizationStyle = "creative" | "precise" | "technical" | "random";
-
-export default function PromptOptimizer() {
+export function PromptOptimizer() {
   const [originalPrompt, setOriginalPrompt] = useState("");
   const [optimizedPrompt, setOptimizedPrompt] = useState("");
   const [improvements, setImprovements] = useState<string[]>([]);
@@ -128,7 +127,7 @@ export default function PromptOptimizer() {
       </Card>
 
       {optimizedPrompt && (
-        <Card className="">
+        <Card>
           <CardContent className="pt-6">
             <Tabs value={activeTab} onValueChange={setActiveTab}>
               <div className="flex items-center justify-between mb-4">
